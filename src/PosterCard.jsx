@@ -26,7 +26,7 @@ const PosterCard = ({ classes, posterUrl, movieDetails }) => (
         <Typography component="p">{movieDetails.overview}</Typography>
       </CardContent>
       <CardActions>
-        <a href={`https://www.themoviedb.org/movie/${movieDetails.id}`}>
+        <a target="_blank" href={`https://www.themoviedb.org/movie/${movieDetails.id}`}>
           <Button>
             Read More
           </Button>
